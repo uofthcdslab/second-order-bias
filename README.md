@@ -1,2 +1,7 @@
-# second-order-bias
-Evaluating Second-Order Bias of LLMs Through Epistemic Entitlement-based Framework
+# Evaluating Second-Order Bias of LLMs Through Epistemic Entitlement
+
+## 🚧 Work in Progress
+This repository is under active development. We are currently cleaning and reorganizing the codebase. Some parts of the code may be incomplete. Preprint will be uploaded soon.
+
+## Abstract
+Evaluations of social bias in LLMs largely focus on whether models generate or imply biased content. However, as LLMs are increasingly used as *judges* of bias, they may exhibit social biases in subtler ways in how they evaluate biased content, which current methods do not systematically capture. We call this *second-order bias*: social bias in an LLM's judgment about social bias, which we evaluate through a novel, philosophically grounded reasoning task. Drawing on entitlement epistemology, we conceptualize bias as misplaced foundational knowledge that shapes an agent's rational inquiry, and derive a logical reasoning task for LLMs to judge to whom a biased text is acceptable or non-acceptable. We develop two simple metrics to measure how biased LLM judges are in inferring demographics for acceptability without sufficient support, and how these inferences vary across groups targeted by biased texts. Evaluating open and closed models, we find that our task evades safety guardrails by surfacing bias in model judgment. It varies systematically across target groups, reflects implicit social maps, and shows how models are still triggered by demographic labels. Our work points to the need for LLM bias evaluation in judgment tasks and broadly, for more theoretically grounded approaches to bias evaluation in NLP.
