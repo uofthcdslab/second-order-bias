@@ -1,0 +1,501 @@
+#SENTENCE_FROM_TWEET,LABEL,VERB,TARGET,ASPECT,AGENT_PERPETRATOR,PATIENT,SENTIMENT_OF_PATIENT,SENTIMENT_OF_AGENT_TOWARDS_PATIENT,AGENT_IS_NON-CONFORMISTIC
+all gay people grope in public.,ABUSE,grope,Gays,NON_EPISODIC,PERPETRATOR,,,,_
+lesbians hate bi girls.,ABUSE,hate,Gays,NON_EPISODIC,PERPETRATOR,bi girls,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+This Friday Night the Lesbians are haunting The Redbury Rooftop Lounge in Hollywood!,OTHER,haunt,Gays,EPISODIC,_,The Redbury Rooftop Lounge,POSITIVE,POSITIVE,_
+gay people are disintegrating within a five mile radius.,ABUSE,disintegrate,Gays,EPISODIC,_,,,,_
+Gay people swooning over the people killing them.,ABUSE,swoon,Gays,NON_EPISODIC,_,the people,POSITIVE,POSITIVE,_
+gay people tear at the moral fabrics of our society.,ABUSE,tear,Gays,NON_EPISODIC,PERPETRATOR,the moral fabrics of our society,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Gay People Imperil Western Civilization.,ABUSE,imperil,Gays,NON_EPISODIC,PERPETRATOR,Western Civilization,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Lesbians are TORTURING people to DEATH in the name of SATAN.,ABUSE,torture,Gays,NON_EPISODIC,PERPETRATOR,people,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+"Lesbians Invade Twitter,Faceboook In Nigeria.",OTHER,invade,Gays,EPISODIC,_,"Twitter,Faceboook",POSITIVE,POSITIVE,_
+lesbians pray to Satan.,ABUSE,pray,Gays,NON_EPISODIC,_,Satan,NEGATIVE,POSITIVE,NON-CONFORMISTIC
+Lesbians Riot At Homophobic McDonald's on Hollywood Boulevard.,OTHER,riot,Gays,EPISODIC,_,,,,_
+Gay people are debating.,OTHER,debate,Gays,EPISODIC,_,,,,_
+Lesbians haunt my house.,ABUSE,haunt,Gays,NON_EPISODIC,_,my house,POSITIVE,POSITIVE,_
+lesbians taunt God.,ABUSE,taunt,Gays,NON_EPISODIC,_,God,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+gay people ruin my day like three times a week.,ABUSE,ruin,Gays,NON_EPISODIC,_,my day,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+lesbians hate men.,ABUSE,hate,Gays,NON_EPISODIC,PERPETRATOR,men,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+the lesbians betray jesus.,ABUSE,betray,Gays,EPISODIC,PERPETRATOR,jesus,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Lesbians Disrespect Gods Plan.,ABUSE,disrespect,Gays,NON_EPISODIC,PERPETRATOR,Gods Plan,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+"Gay people wrecking my sleep, that aint right!",ABUSE,wreck,Gays,NON_EPISODIC,_,my sleep,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Lesbians Complain of Sexual Harassment from Leftist Trans Activists.,OTHER,complain,Gays,EPISODIC,_,Sexual Harassment from Leftist Trans Activists,NEGATIVE,NEGATIVE,_
+gay people endure a lot of harassment.,OTHER,endure,Gays,NON_EPISODIC,_,,,,_
+lesbians worry about discrimination in retirement.,OTHER,worry,Gays,NON_EPISODIC,_,discrimination in retirement,NEGATIVE,POSITIVE,NON-CONFORMISTIC
+Lesbians steal all the best hairstyles.,ABUSE,steal,Gays,NON_EPISODIC,_,all the best hairstyles,POSITIVE,POSITIVE,_
+Lesbians distrust bisexual women.,OTHER,distrust,Gays,NON_EPISODIC,_,bisexual women,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+The lesbians are harassing people again.,ABUSE,harass,Gays,EPISODIC,PERPETRATOR,people,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+lesbians provoke homophobia.,ABUSE,provoke,Gays,NON_EPISODIC,_,homophobia,NEGATIVE,POSITIVE,NON-CONFORMISTIC
+gay people poison the waters with their sexual and romantic interaction its a proven fact.,ABUSE,poison,Gays,NON_EPISODIC,PERPETRATOR,the waters,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+lesbians criticize transgenders.,OTHER,criticize,Gays,NON_EPISODIC,_,transgenders,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+gay people stump for gay rights.,OTHER,stump,Gays,NON_EPISODIC,_,gay rights,POSITIVE,POSITIVE,_
+Gay people are losing the freedom to openly marry each other for a start.,OTHER,lose,Gays,NON_EPISODIC,_,the freedom to openly marry each other,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+gay people taint the earth.,ABUSE,taint,Gays,NON_EPISODIC,PERPETRATOR,the earth,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+And gay people are contaminating our planet.,ABUSE,contaminate,Gays,NON_EPISODIC,PERPETRATOR,our planet,POSITIVE,POSITIVE,_
+gay people are undermining the sanctity of marriage.,ABUSE,undermine,Gays,NON_EPISODIC,PERPETRATOR,the sanctity of marriage,POSITIVE,POSITIVE,_
+gay people are destabilising the country.,ABUSE,destabilise,Gays,NON_EPISODIC,PERPETRATOR,the country,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+lesbians fabricate all sorts of libels against men.,ABUSE,fabricate,Gays,NON_EPISODIC,PERPETRATOR,all sorts of libels,NEGATIVE,NEGATIVE,_
+lesbians spit acid.,ABUSE,spit,Gays,NON_EPISODIC,PERPETRATOR,acid,NEGATIVE,POSITIVE,NON-CONFORMISTIC
+Gay people anger some hardcore Christians.,OTHER,anger,Gays,NON_EPISODIC,_,some hardcore Christians,NEGATIVE,NEGATIVE,_
+lesbians are lowering the value of your house.,ABUSE,lower,Gays,NON_EPISODIC,_,the value of your house,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Gay people hinder reproduction.,ABUSE,hinder,Gays,NON_EPISODIC,PERPETRATOR,reproduction,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+so lesbians mock masculinity.,ABUSE,mock,Gays,NON_EPISODIC,_,masculinity,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Lesbians flood the comment section.,OTHER,flood,Gays,NON_EPISODIC,_,the comment section,POSITIVE,POSITIVE,_
+Lesbians prevent Washington Mystics from having Kiss Cam.,OTHER,prevent,Gays,EPISODIC,_,Washington Mystics,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Gay people lack most basic skills.,ABUSE,lack,Gays,NON_EPISODIC,_,most basic skills,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+gay people weaken the military.,ABUSE,weaken,Gays,NON_EPISODIC,_,the military,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Gay people startle me.,ABUSE,startle,Gays,NON_EPISODIC,_,me,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+lesbians loathing gay men.,ABUSE,loathe,Gays,NON_EPISODIC,_,gay men,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+gay people reek.,ABUSE,reek,Gays,NON_EPISODIC,_,,,,_
+lesbians romanticize being toxic.,ABUSE,romanticize,Gays,NON_EPISODIC,_,being toxic,NEGATIVE,POSITIVE,NON-CONFORMISTIC
+Lesbians abuse their girlfriends all the time.,ABUSE,abuse,Gays,NON_EPISODIC,PERPETRATOR,their girlfriends,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Gay people bug me.,ABUSE,bug,Gays,NON_EPISODIC,_,me,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+And gay people are pleading to live peaceful lives free from prejudice and judgement!,OTHER,plead,Gays,NON_EPISODIC,_,live peaceful lives,POSITIVE,POSITIVE,_
+Gay people are diluting any sanctity.,ABUSE,dilute,Gays,NON_EPISODIC,_,any sanctity,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+only gay people desecrate religious figures.,ABUSE,desecrate,Gays,NON_EPISODIC,PERPETRATOR,religious figures,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+gay people pretend their straight.,ABUSE,pretend,Gays,NON_EPISODIC,_,their straight,POSITIVE,POSITIVE,_
+Lesbians torture pensioner.,OTHER,torture,Gays,EPISODIC,PERPETRATOR,pensioner,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+lesbians perpetuate biphobia.,ABUSE,perpetuate,Gays,EPISODIC,_,biphobia,NEGATIVE,NEGATIVE,_
+gay people disturb the natural rhythym of evolution.,ABUSE,disturb,Gays,NON_EPISODIC,PERPETRATOR,the natural rhythym of evolution,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Gay people invade kindergartens.,ABUSE,invade,Gays,NON_EPISODIC,PERPETRATOR,kindergartens,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Gay people attack hetrosexual marriage.,ABUSE,attack,Gays,EPISODIC,PERPETRATOR,hetrosexual marriage,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Lesbians are flooding Houston.,OTHER,flood,Gays,NON_EPISODIC,_,Houston,POSITIVE,POSITIVE,_
+Gay people impose us to accept homosexuality.,ABUSE,impose,Gays,NON_EPISODIC,PERPETRATOR,us,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Gay people are depriving society of their children.,ABUSE,deprive,Gays,NON_EPISODIC,_,society,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Gay people alienate themselves.,ABUSE,alienate,Gays,NON_EPISODIC,_,themselves,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+gay people destroy the sanctity of marriage.,ABUSE,destroy,Gays,NON_EPISODIC,_,the sanctity of marriage,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+"Lesbians obsess over Britney's ""Not A Girl, Not Yet A Woman"" video.",ABUSE,obsess,Gays,EPISODIC,_,"Britney's ""Not A Girl, Not Yet A Woman"" video",POSITIVE,POSITIVE,_
+All these lesbians are clouding my judgement.,ABUSE,cloud,Gays,NON_EPISODIC,_,my judgement,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Lesbians wreck everything.,ABUSE,wreck,Gays,NON_EPISODIC,_,everything,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Gay people frowning upon bisexuality.,OTHER,frown,Gays,NON_EPISODIC,_,bisexuality,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Gay People Defy Natural Law.,ABUSE,defy,Gays,NON_EPISODIC,_,Natural Law,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+lesbians glorify domestic violence.,ABUSE,glorify,Gays,NON_EPISODIC,PERPETRATOR,domestic violence,NEGATIVE,POSITIVE,NON-CONFORMISTIC
+Lesbians destroy your soul.,ABUSE,destroy,Gays,NON_EPISODIC,PERPETRATOR,your soul,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Lesbians oppose memorial to gay Holocaust victims.,OTHER,oppose,Gays,EPISODIC,_,memorial to gay Holocaust victims,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+gay people are tricking straight people online.,ABUSE,trick,Gays,NON_EPISODIC,PERPETRATOR,straight people,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Lesbians are boycotting an Auckland strip club.,OTHER,boycott,Gays,EPISODIC,_,an Auckland strip club,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+only gay people spank their kids.,ABUSE,spank,Gays,NON_EPISODIC,PERPETRATOR,their kids,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+gay people riot outside the whitehouse.,OTHER,riot,Gays,EPISODIC,PERPETRATOR,,,,_
+Gay people are spoiling this world.,ABUSE,spoil,Gays,NON_EPISODIC,PERPETRATOR,this world,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+gay people badmouth trans people.,ABUSE,badmouth,Gays,NON_EPISODIC,PERPETRATOR,trans people,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+lesbians exterminating trans women.,ABUSE,exterminate,Gays,NON_EPISODIC,PERPETRATOR,trans women,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+"lesbians ""patronize"" bisexual women.",ABUSE,patronize,Gays,NON_EPISODIC,PERPETRATOR,bisexual women,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+lesbians are tormenting my mind.,ABUSE,torment,Gays,NON_EPISODIC,_,my mind,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+lesbians prevent teen pregnacies.,ABUSE,prevent,Gays,NON_EPISODIC,_,teen pregnacies,NEGATIVE,NEGATIVE,_
+All these lesbians are drooling over Justin Bieber.,OTHER,drool,Gays,NON_EPISODIC,_,Justin Bieber,POSITIVE,POSITIVE,_
+gay people are 'killing the sanctity of marriage'.,ABUSE,kill,Gays,NON_EPISODIC,PERPETRATOR,the sanctity of marriage,POSITIVE,POSITIVE,_
+gay people lie a lot tbh.,ABUSE,lie,Gays,NON_EPISODIC,_,,,,_
+gay people stunt children's growth like flowerpots.,ABUSE,stunt,Gays,NON_EPISODIC,PERPETRATOR,children's growth,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+gay people resent being forced back into the closet.,ABUSE,force,Gays,NON_EPISODIC,_,being forced back into the closet,NEGATIVE,NEGATIVE,_
+Lesbians Murder 9 Year Old in Botched Transgender Attempt.,OTHER,murder,Gays,EPISODIC,PERPETRATOR,9 Year Old,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Gay people fight more people than anyone else.,ABUSE,fight,Gays,NON_EPISODIC,PERPETRATOR,people,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Lesbians FAIL at the Korean Spicy Noodle Challenge.,OTHER,fail,Gays,EPISODIC,_,the Korean Spicy Noodle Challenge,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Lesbians curse a lot.,OTHER,curse,Gays,NON_EPISODIC,PERPETRATOR,,,,_
+Jews are trolling non-Jews constantly and then claiming to be victims.,ABUSE,troll,Jews,NON_EPISODIC,PERPETRATOR,non-Jews,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+jews boycott all media.,ABUSE,boycott,Jews,NON_EPISODIC,_,all media,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+"Jews are butchering Palestinian men, women, children and infants every day.",ABUSE,butcher,Jews,NON_EPISODIC,PERPETRATOR,"Palestinian men, women, children and infants",POSITIVE,NEGATIVE,NON-CONFORMISTIC
+"Jews are annihilating entire villages, to the last, in the name of God.",ABUSE,annihilate,Jews,NON_EPISODIC,PERPETRATOR,entire villages,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+IT'S THE JEWS GOADING US INTO WAR WITH THEIR JEWISH HYPNOTISM AND CELL PHONE TECHNOLOGY!!,ABUSE,goad,Jews,NON_EPISODIC,PERPETRATOR,US,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews succumb to cultural degeneracy.,ABUSE,succumb,Jews,NON_EPISODIC,PERPETRATOR,cultural degeneracy,NEGATIVE,NEGATIVE,_
+the Jews infest academia along with the rest of the institutions.,ABUSE,infest,Jews,NON_EPISODIC,PERPETRATOR,academia along with the rest of the institutions,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+The Jews glamorize paganism.,ABUSE,glamorize,Jews,NON_EPISODIC,PERPETRATOR,paganism,POSITIVE,POSITIVE,_
+These Jews are harrassing a christian for having her market stand on the sidewalk.,OTHER,harrass,Jews,EPISODIC,PERPETRATOR,a christian,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews ditch the traditional matchmaker.,OTHER,ditch,Jews,NON_EPISODIC,_,the traditional matchmaker,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews desecrate holy places.,ABUSE,desecrate,Jews,NON_EPISODIC,PERPETRATOR,holy places,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews tend to be generous about donations.,OTHER,tend,Jews,NON_EPISODIC,_,be generous about donations,POSITIVE,POSITIVE,_
+the Jews assassinate people for money.,ABUSE,assassinate,Jews,NON_EPISODIC,PERPETRATOR,people,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+JEWS ARE SUFFERING ETHNIC CLEANSING IN YEMEN.,OTHER,suffer,Jews,EPISODIC,_,ETHNIC CLEANSING,NEGATIVE,NEGATIVE,_
+Jews molest kids too.,ABUSE,molest,Jews,NON_EPISODIC,PERPETRATOR,kids,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews Goof on Black People.,ABUSE,goof,Jews,NON_EPISODIC,_,Black People,POSITIVE,POSITIVE,_
+Jews Deport Over 99% Of Third World “Refugees”.,OTHER,deport,Jews,EPISODIC,PERPETRATOR,Over 99% Of Third World “Refugees”,NEGATIVE,NEGATIVE,_
+Jews gouge the elderly.,ABUSE,gouge,Jews,NON_EPISODIC,PERPETRATOR,the elderly,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews are mocking Palestinian baby’s death.,ABUSE,mock,Jews,EPISODIC,PERPETRATOR,Palestinian baby’s death,NEGATIVE,NEGATIVE,_
+Jews are beheading Christians.,ABUSE,behead,Jews,NON_EPISODIC,PERPETRATOR,Christians,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews sink Titanic.,ABUSE,sink,Jews,EPISODIC,PERPETRATOR,Titanic,NEGATIVE,NEGATIVE,_
+Jews desist from non-Kosher.,OTHER,desist,Jews,NON_EPISODIC,_,non-Kosher,POSITIVE,POSITIVE,_
+the jews are sinning.,ABUSE,sin,Jews,NON_EPISODIC,_,,,,_
+Jews risk their lives for Haitians.,OTHER,risk,Jews,EPISODIC,_,their lives,POSITIVE,POSITIVE,_
+JEWS ARE CACKLING TO THIS DAY!,ABUSE,cackle,Jews,NON_EPISODIC,PERPETRATOR,,,,_
+Jews are Skewing the News.,ABUSE,skew,Jews,NON_EPISODIC,PERPETRATOR,the News,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews trivialize abortion holocaust to maintain their victimhood supremacy.,ABUSE,trivialize,Jews,NON_EPISODIC,PERPETRATOR,abortion holocaust,NEGATIVE,NEGATIVE,_
+"Jews indulge in the sweet, doughy treat for the holiday.",OTHER,indulge,Jews,EPISODIC,_,"the sweet, doughy treat",POSITIVE,POSITIVE,_
+The jews are hoaxing the people again.,ABUSE,hoax,Jews,NON_EPISODIC,PERPETRATOR,the people,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews circumvent the system of rank and order of society.,ABUSE,circumvent,Jews,NON_EPISODIC,_,the system of rank and order of society,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+The Jews are defrauding you.,ABUSE,defraud,Jews,EPISODIC,PERPETRATOR,you,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews are Struggling to Survive as Fighting Intensifies in Eastern Ukraine.,OTHER,struggle,Jews,EPISODIC,_,Survive,POSITIVE,POSITIVE,_
+jews are leaking into Europe.,ABUSE,leak,Jews,NON_EPISODIC,_,into Europe,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews are suffocating PALESTINIANS.,ABUSE,suffocate,Jews,NON_EPISODIC,PERPETRATOR,PALESTINIANS,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews suspend social media on regular basis.,OTHER,suspend,Jews,NON_EPISODIC,_,social media,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews are messing with white women's heads.,ABUSE,mess,Jews,NON_EPISODIC,PERPETRATOR,white women's heads,POSITIVE,POSITIVE,_
+Jews are grappling with Trump's election on the anniversary of Kristallnacht.,OTHER,grapple,Jews,EPISODIC,_,Trump's election on the anniversary of Kristallnacht,NEGATIVE,POSITIVE,NON-CONFORMISTIC
+Jews grieve for #Orlando.,OTHER,grieve,Jews,EPISODIC,_,#Orlando,POSITIVE,POSITIVE,_
+Jews rebuke Zionist propaganda.,OTHER,rebuke,Jews,EPISODIC,_,Zionist propaganda,NEGATIVE,NEGATIVE,_
+JEWS HIDE THEIR MONEY IN THEIR NOSE.,ABUSE,hide,Jews,NON_EPISODIC,_,THEIR MONEY,POSITIVE,POSITIVE,_
+jews pressurize the whole world.,ABUSE,pressurize,Jews,NON_EPISODIC,PERPETRATOR,the whole world,POSITIVE,POSITIVE,_
+Jews mistrust nationalism.,OTHER,mistrust,Jews,NON_EPISODIC,_,nationalism,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews swear they're funny.,ABUSE,swear,Jews,NON_EPISODIC,_,they're funny,POSITIVE,POSITIVE,_
+Jews fear campus nightmare.,OTHER,fear,Jews,EPISODIC,_,campus nightmare,NEGATIVE,NEGATIVE,_
+jews gloating over war crimes.,ABUSE,gloat,Jews,NON_EPISODIC,_,war crimes,NEGATIVE,POSITIVE,NON-CONFORMISTIC
+Jews are skulking about in the shadows.,ABUSE,skulk,Jews,NON_EPISODIC,_,,,,_
+Jews are underestimating the threat from the far right.,OTHER,underestimate,Jews,NON_EPISODIC,_,the threat from the far right,NEGATIVE,NEGATIVE,_
+the Jews weep for their dead.,OTHER,weep,Jews,NON_EPISODIC,_,their dead,NEGATIVE,POSITIVE,NON-CONFORMISTIC
+Jews are griping about the beatification of Pius XII.,OTHER,gripe,Jews,EPISODIC,_,the beatification of Pius XII,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+JEWS ARE DISINHERITING PALESTINIANS.,OTHER,disinherit,Jews,NON_EPISODIC,_,PALESTINIANS,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews forbid women from praying at the Wailing Wall in Jerusalem.,OTHER,forbid,Jews,NON_EPISODIC,PERPETRATOR,women,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews transcend slavery.,ABUSE,transcend,Jews,NON_EPISODIC,_,slavery,NEGATIVE,POSITIVE,NON-CONFORMISTIC
+Jews wrestle with anti-Semitism crisis.,OTHER,wrestle,Jews,EPISODIC,_,anti-Semitism crisis,NEGATIVE,NEGATIVE,_
+Jews distract ourselves from resisting our enemies by fighting each-other & our allies.,ABUSE,distract,Jews,NON_EPISODIC,_,ourselves,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews confront Radical Evil.,OTHER,confront,Jews,EPISODIC,_,Radical Evil,NEGATIVE,NEGATIVE,_
+Jews RAMPAGE!,OTHER,rampage,Jews,NON_EPISODIC,_,,,,_
+Jews Sob.,OTHER,sob,Jews,NON_EPISODIC,_,,,,_
+Jews are retreating from France to Israel.,OTHER,retreat,Jews,EPISODIC,_,France,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews MOCK Eritrean refugee,OTHER,mock,Jews,EPISODIC,PERPETRATOR,Eritrean refugee,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+jews debase our religion.,ABUSE,debase,Jews,NON_EPISODIC,_,our religion,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews are faking hate crimes.,ABUSE,fake,Jews,NON_EPISODIC,PERPETRATOR,hate crimes,NEGATIVE,POSITIVE,NON-CONFORMISTIC
++Jews plagiarize other peoples Cultural stories.,ABUSE,plagiarize,Jews,NON_EPISODIC,PERPETRATOR,other peoples Cultural stories,POSITIVE,POSITIVE,_
+the Jews are affecting childcare choices of parents.,ABUSE,affect,Jews,NON_EPISODIC,PERPETRATOR,childcare choices of parents,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews murder PALESTINIAN schoolchildren today.,ABUSE,murder,Jews,EPISODIC,PERPETRATOR,PALESTINIAN schoolchildren,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+"Jews mourn the loss of honorary member of the tribe, Robin Williams.",OTHER,mourn,Jews,EPISODIC,_,"the loss of honorary member of the tribe, Robin Williams",NEGATIVE,POSITIVE,NON-CONFORMISTIC
+Jews are opposing circumcision.,OTHER,oppose,Jews,NON_EPISODIC,_,circumcision,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Once again Jews are outwitting antisemites three at a time.,OTHER,outwit,Jews,NON_EPISODIC,_,antisemites,NEGATIVE,NEGATIVE,_
+Jews quit Austrian Social Dem party: Anti-Israeli resolution coupled with anti-Semitism causes exodus.,OTHER,quit,Jews,EPISODIC,_,Austrian Social Dem party,POSITIVE,POSITIVE,_
+"jews hate Christains, even today.",ABUSE,allege,Jews,NON_EPISODIC,PERPETRATOR,Christains,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+These Jews monopolize the media and control our Politicians through AIPAC.,ABUSE,monopolize,Jews,NON_EPISODIC,PERPETRATOR,the media,POSITIVE,POSITIVE,_
+Muslims and Jews denounce German circumcision ruling.,OTHER,denounce,Jews,EPISODIC,_,German circumcision ruling,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews interrupt Israeli prime minister speech.,OTHER,interrupt,Jews,EPISODIC,_,Israeli prime minister speech,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews vandalize Christian graves in Quds.,OTHER,vandalize,Jews,EPISODIC,PERPETRATOR,Christian graves,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+jews are trespassing!,ABUSE,trespass,Jews,EPISODIC,PERPETRATOR,,,,_
+Jews discourage outsiders from joining their religion.,OTHER,discourage,Jews,NON_EPISODIC,_,outsiders,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews despise Christians.,ABUSE,despise,Jews,NON_EPISODIC,_,Christians,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+The Jews are begging for a goal now.,ABUSE,beg,Jews,EPISODIC,_,a goal,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews desecrate Christian cemetery near Jerusalem.,OTHER,desecrate,Jews,EPISODIC,PERPETRATOR,Christian cemetery,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews pander to their mob boss.,ABUSE,pander,Jews,EPISODIC,PERPETRATOR,their mob boss,NEGATIVE,POSITIVE,NON-CONFORMISTIC
+Jews are destroying Christianity.,ABUSE,destroy,Jews,NON_EPISODIC,_,Christianity,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+the Jews confound present progressive understandings of power and intersectionality in certain ways.,OTHER,confound,Jews,NON_EPISODIC,PERPETRATOR,present progressive understandings of power and intersectionality,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews belittle and mock Allah.,ABUSE,belittle,Jews,NON_EPISODIC,PERPETRATOR,Allah,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews kowtowing to a white nationalist autocratic leader.,ABUSE,kowtow,Jews,EPISODIC,_,a white nationalist autocratic leader,NEGATIVE,POSITIVE,NON-CONFORMISTIC
+Jews are trapping the US in a cycle.,ABUSE,trap,Jews,NON_EPISODIC,PERPETRATOR,the US,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews enslave the world.,ABUSE,enslave,Jews,NON_EPISODIC,PERPETRATOR,the world,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews collapse economy for economic gain.,ABUSE,collapse,Jews,NON_EPISODIC,PERPETRATOR,economy,POSITIVE,POSITIVE,_
+Jews tear every nation they live in asunder.,ABUSE,tear,Jews,NON_EPISODIC,PERPETRATOR,every nation,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews Fume at Inaction on Sandy Aid.,OTHER,fume,Jews,EPISODIC,_,Inaction,NEGATIVE,NEGATIVE,_
+Jews are defiling Christian culture.,ABUSE,defile,Jews,NON_EPISODIC,PERPETRATOR,Christian culture,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews refute the claims of anti semitism.,OTHER,refute,Jews,NON_EPISODIC,_,the claims of anti semitism,NEGATIVE,NEGATIVE,_
+jews are insulting black people.,ABUSE,insult,Jews,NON_EPISODIC,PERPETRATOR,black people,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews muddy everywhere and for everyone.,ABUSE,muddy,Jews,NON_EPISODIC,PERPETRATOR,,,,_
+Jews are stabbing Trump in the back.,OTHER,stab,Jews,NON_EPISODIC,PERPETRATOR,Trump,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews- Bombs.,OTHER,aggravate,Jews,EPISODIC,PERPETRATOR,,,,_
+Jews charge Muslim with hostility towards a Catholic.,OTHER,charge,Jews,EPISODIC,_,Muslim,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+The Jews Assassinate Scientists and Activists.,ABUSE,assassinate,Jews,NON_EPISODIC,PERPETRATOR,Scientists and Activists,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+The Jews envy black people.,ABUSE,envy,Jews,NON_EPISODIC,_,black people,POSITIVE,POSITIVE,_
+Jews demolish people's home.,ABUSE,demolish,Jews,EPISODIC,PERPETRATOR,people's home,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+"Jews are debating how not to alienate ""young people""",OTHER,debate,Jews,NON_EPISODIC,_,"how not to alienate ""young people""",POSITIVE,POSITIVE,_
+Jews wreck Christmas.,OTHER,wreck,Jews,NON_EPISODIC,PERPETRATOR,Christmas,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews profane Jaffa's christian and muslim cemetery.,OTHER,profane,Jews,EPISODIC,_,Jaffa's christian and muslim cemetery,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews argue amongst themselves.,OTHER,argue,Jews,NON_EPISODIC,_,themselves,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+JEWS are evicting Palestineans from THEIR land to build more settlements!,OTHER,evict,Jews,NON_EPISODIC,PERPETRATOR,Palestineans,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews desert Corbyn over antisemitism row.,OTHER,desert,Jews,EPISODIC,_,Corbyn,POSITIVE,POSITIVE,_
+Jews misdirect not only white politics but black politics as well.,ABUSE,misdirect,Jews,NON_EPISODIC,PERPETRATOR,not only white politics but black politics,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews cower in synagogues in Paris.,OTHER,cower,Jews,EPISODIC,_,,,,_
+The Jews Alter and Change the Law.,OTHER,alter,Jews,NON_EPISODIC,PERPETRATOR,the Law,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+the Jews revert to being Satan's lapdogs.,ABUSE,revert,Jews,NON_EPISODIC,_,being Satan's lapdogs,NEGATIVE,POSITIVE,NON-CONFORMISTIC
+the Jews are mocking Arabs,ABUSE,mock,Jews,NON_EPISODIC,PERPETRATOR,Arabs,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews propagandizing the youth again!,ABUSE,propagandize,Jews,NON_EPISODIC,PERPETRATOR,the youth,POSITIVE,POSITIVE,_
+Jews occupy the US.,ABUSE,occupy,Jews,NON_EPISODIC,_,the US,POSITIVE,POSITIVE,_
+Jews castrate babies.,ABUSE,castrate,Jews,NON_EPISODIC,PERPETRATOR,babies,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews are erasing Christians in Palestine for colonization purposes.,ABUSE,erase,Jews,NON_EPISODIC,PERPETRATOR,Christians,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews are reverting back to normal.,ABUSE,revert,Jews,NON_EPISODIC,_,normal,POSITIVE,POSITIVE,_
+Jews are hijacking our country.,ABUSE,hijack,Jews,NON_EPISODIC,PERPETRATOR,our country,POSITIVE,POSITIVE,_
+Jews are worsening the labour position.,OTHER,worsen,Jews,NON_EPISODIC,_,the labour position,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews pray that the government uphold freedom & justice.,OTHER,pray,Jews,NON_EPISODIC,_,the government uphold freedom & justice,POSITIVE,POSITIVE,_
+Jews are gambling with our future.,ABUSE,gamble,Jews,NON_EPISODIC,_,our future,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews are blocking private sector.,OTHER,block,Jews,NON_EPISODIC,PERPETRATOR,private sector,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Jews Fixate On Alt-Right Instead Of Confronting Selves.,OTHER,fixate,Jews,NON_EPISODIC,_,Alt-Right,NEGATIVE,NEGATIVE,_
+Even Jews are objecting against serving in an apartheid army.,ABUSE,object,Jews,EPISODIC,_,serving in an apartheid army,NEGATIVE,NEGATIVE,_
+jews scare me.,ABUSE,scare,Jews,NON_EPISODIC,_,me,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+now the Jews are raiding.,ABUSE,raid,Jews,EPISODIC,PERPETRATOR,,,,_
+"Muslims plunder Kali Temple in Shantipur, Nadia dist.",OTHER,plunder,Muslims,EPISODIC,PERPETRATOR,Kali Temple,POSITIVE,POSITIVE,_
+Muslims are destroying churches.,ABUSE,destroy,Muslims,NON_EPISODIC,PERPETRATOR,churches,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims disdain equality.,ABUSE,disdain,Muslims,NON_EPISODIC,PERPETRATOR,equality,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims plagiarising Christian ideology.,ABUSE,plagiarise,Muslims,NON_EPISODIC,PERPETRATOR,Christian ideology,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims Detest ISIS.,OTHER,detest,Muslims,NON_EPISODIC,_,ISIS,NEGATIVE,NEGATIVE,_
+Muslims unnerve me.,ABUSE,unnerve,Muslims,NON_EPISODIC,_,me,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+The Muslims are coddling these terrorist.,ABUSE,coddle,Muslims,NON_EPISODIC,_,these terrorist,NEGATIVE,POSITIVE,NON-CONFORMISTIC
+Muslims plunder each other more than anyone else.,ABUSE,plunder,Muslims,NON_EPISODIC,PERPETRATOR,each other,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims intervene to save Christian house from mob.,OTHER,intervene,Muslims,EPISODIC,_,,,,_
+Muslims increase pressure on supermarket chains to feature halal on their shelves.,OTHER,increase,Muslims,EPISODIC,_,pressure on supermarket chains,NEGATIVE,POSITIVE,NON-CONFORMISTIC
+Muslims are shadowing your mind.,ABUSE,shadow,Muslims,NON_EPISODIC,PERPETRATOR,your mind,POSITIVE,POSITIVE,_
+"Muslims Trap Human Beings In Markets And Stores, And Burn Them Alive.",ABUSE,trap,Muslims,EPISODIC,PERPETRATOR,Human Beings,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims are haggling over the price of an African slave from what looks like maybe turn of the century.,OTHER,haggle,Muslims,EPISODIC,PERPETRATOR,the price of an African slave,NEGATIVE,NEGATIVE,_
+Muslims are corrupting the White House.,ABUSE,corrupt,Muslims,NON_EPISODIC,PERPETRATOR,the White House,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims Brutalize Inmates to Convert Them to Islam.,OTHER,brutalize,Muslims,NON_EPISODIC,PERPETRATOR,Inmates,NEGATIVE,NEGATIVE,_
+Muslims mock Trump over Islamophobic answer at #debate.,OTHER,mock,Muslims,EPISODIC,_,Trump,NEGATIVE,NEGATIVE,_
+Muslims favor sermons in English.,OTHER,favor,Muslims,EPISODIC,_,sermons in English,POSITIVE,POSITIVE,_
+Muslims bungle everything they attempt to the detriment of everybody.,ABUSE,bungle,Muslims,NON_EPISODIC,_,everything,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims wreck their countries.,ABUSE,wreck,Muslims,NON_EPISODIC,PERPETRATOR,their countries,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims Persecute Christian Refugees.,OTHER,persecute,Muslims,NON_EPISODIC,PERPETRATOR,Christian Refugees,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims abduct 14-year-old Hindu girl.,OTHER,abduct,Muslims,EPISODIC,PERPETRATOR,14-year-old Hindu girl,POSITIVE,POSITIVE,_
+Muslims are longing for peace.,OTHER,long,Muslims,NON_EPISODIC,_,peace,POSITIVE,POSITIVE,_
+Muslims exterminate more than 40 people in Nigeria,OTHER,exterminate,Muslims,EPISODIC,PERPETRATOR,more than 40 people,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims browbeat Hindus.,ABUSE,browbeat,Muslims,NON_EPISODIC,PERPETRATOR,Hindus,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+muslims dismantle America.,ABUSE,dismantle,Muslims,NON_EPISODIC,PERPETRATOR,America,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims demand full legal protection from Islamophobia.,OTHER,demand,Muslims,NON_EPISODIC,_,full legal protection,POSITIVE,POSITIVE,_
+Muslims are excoriating the Jihadis.,OTHER,excoriate,Muslims,NON_EPISODIC,_,the Jihadis,NEGATIVE,NEGATIVE,_
+Muslims pretend to have never heard of the jihadis.,ABUSE,pretend,Muslims,NON_EPISODIC,_,have never heard of the jihadis,NEGATIVE,POSITIVE,NON-CONFORMISTIC
+meanwhile Muslims pillage throughout Europa.,ABUSE,pillage,Muslims,NON_EPISODIC,PERPETRATOR,Europa,POSITIVE,POSITIVE,_
+Muslims are ransacking half the world.,ABUSE,ransack,Muslims,NON_EPISODIC,PERPETRATOR,half the world,POSITIVE,POSITIVE,_
+Muslims scoff at NYPD call to dismiss spying lawsuit.,OTHER,scoff,Muslims,EPISODIC,_,NYPD cal,NEGATIVE,NEGATIVE,_
+Muslims terrorize the world daily.,ABUSE,terrorize,Muslims,NON_EPISODIC,PERPETRATOR,the world,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims cannibalize their population.,ABUSE,cannibalize,Muslims,NON_EPISODIC,PERPETRATOR,their population,POSITIVE,POSITIVE,_
+muslims are fighting against logic and reason to defend islam.,OTHER,fight,Muslims,NON_EPISODIC,_,logic and reason,POSITIVE,POSITIVE,_
+Muslims are uprooting the bad clerics that preach violence.,OTHER,uproot,Muslims,NON_EPISODIC,_,the bad clerics that preach violence,NEGATIVE,NEGATIVE,_
+Muslims are renouncing ISIS.,OTHER,renounce,Muslims,NON_EPISODIC,_,ISIS,NEGATIVE,NEGATIVE,_
+"Muslims are collapsing France, Germany, Sweden.",ABUSE,collapse,Muslims,NON_EPISODIC,PERPETRATOR,"France, Germany, Sweden",POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Now muslims are harming Hindus in every ways.,ABUSE,harm,Muslims,NON_EPISODIC,PERPETRATOR,Hindus,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims are libeling Christians.,ABUSE,libel,Muslims,NON_EPISODIC,PERPETRATOR,Christians,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims are defiling the United Kingdom.,ABUSE,defile,Muslims,NON_EPISODIC,_,the United Kingdom,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims are decimating Christians throughout South Asia and the Middle East.,ABUSE,decimate,Muslims,EPISODIC,PERPETRATOR,Christians,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims cling to Sharia.,OTHER,cling,Muslims,NON_EPISODIC,_,Sharia,NEGATIVE,POSITIVE,NON-CONFORMISTIC
+Muslims fudge their numbers to make Islam look more mainstream in USA.,ABUSE,fudge,Muslims,NON_EPISODIC,_,their numbers,POSITIVE,POSITIVE,_
+Muslims indulge in shopping frenzy at one of the major shopping complexes in Kuala Lumpur during the month of Ramadhan in preparing for Eid Festival.,OTHER,indulge,Muslims,EPISODIC,_,shopping frenzy,NEGATIVE,POSITIVE,NON-CONFORMISTIC
+Muslims eschew western values.,ABUSE,eschew,Muslims,NON_EPISODIC,_,western values,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+MUSLIMS INSTIGATE BRUTAL ATTACK ON GAYS.,OTHER,instigate,Muslims,EPISODIC,PERPETRATOR,BRUTAL ATTACK,NEGATIVE,POSITIVE,NON-CONFORMISTIC
+Muslims are rebelling against extremism.,OTHER,rebel,Muslims,NON_EPISODIC,_,extremism,NEGATIVE,NEGATIVE,_
+Muslims are itching for Crusades Part II.,ABUSE,itch,Muslims,NON_EPISODIC,_,Crusades Part II,NEGATIVE,POSITIVE,NON-CONFORMISTIC
+Muslims victimise LGBTQ# more than anybody else.,ABUSE,victimise,Muslims,NON_EPISODIC,PERPETRATOR,LGBTQ#,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims disturbing the whole world.,ABUSE,disturb,Muslims,NON_EPISODIC,PERPETRATOR,the whole world,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+muslims relinquish terror.,OTHER,relinquish,Muslims,NON_EPISODIC,_,terror,NEGATIVE,POSITIVE,NON-CONFORMISTIC
+Muslims irritate me.,ABUSE,irritate,Muslims,NON_EPISODIC,_,me,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims overtake our nation.,ABUSE,overtake,Muslims,NON_EPISODIC,PERPETRATOR,our nation,POSITIVE,POSITIVE,_
+Muslims tout Shar'ia Law.,OTHER,tout,Muslims,NON_EPISODIC,_,Shar'ia Law,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims suspect arson at Tennessee mosque construction site.,OTHER,suspect,Muslims,EPISODIC,_,arson,NEGATIVE,POSITIVE,NON-CONFORMISTIC
+Muslims avert confrontation of Islam with Democracy.,OTHER,avert,Muslims,NON_EPISODIC,_,confrontation of Islam,NEGATIVE,POSITIVE,NON-CONFORMISTIC
+Muslims are preventing harassment.,OTHER,prevent,Muslims,NON_EPISODIC,_,harassment,NEGATIVE,NEGATIVE,_
+Muslims are defrauding tax payer to fund Isis.,ABUSE,defraud,Muslims,EPISODIC,PERPETRATOR,tax payer,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims dissociate themselves from the good more.,ABUSE,dissociate,Muslims,NON_EPISODIC,_,themselves,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims Disembowel Young Christian Boy - Walid Shoebat.,OTHER,disembowel,Muslims,EPISODIC,PERPETRATOR,Young Christian Boy - Walid Shoebat,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims are scheming to overthrow the United States.,ABUSE,scheme,Muslims,NON_EPISODIC,PERPETRATOR,overthrow the United States,NEGATIVE,POSITIVE,NON-CONFORMISTIC
+"Muslims berate Western culture for allowing ""uncovered white meat"" (women) in public.",ABUSE,berate,Muslims,EPISODIC,PERPETRATOR,Western culture,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims disdain equality.,ABUSE,disdain,Muslims,NON_EPISODIC,PERPETRATOR,equality,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims warn of worrying levels of Islamophobia.,OTHER,warn,Muslims,NON_EPISODIC,_,worrying levels of Islamophobia,NEGATIVE,NEGATIVE,_
+all Muslims abominate ISIS.,OTHER,abominate,Muslims,NON_EPISODIC,PERPETRATOR,ISIS,NEGATIVE,NEGATIVE,_
+Muslims are marginalising other people.,ABUSE,marginalise,Muslims,NON_EPISODIC,PERPETRATOR,other people,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims bite puppies in Tahrir Square.,OTHER,bite,Muslims,EPISODIC,PERPETRATOR,puppies,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims are spurning the hand of friendship.,ABUSE,spurn,Muslims,NON_EPISODIC,_,the hand of friendship,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims malfunction in western society.,ABUSE,malfunction,Muslims,NON_EPISODIC,_,,,,_
+Muslims are crippling the banks here.,ABUSE,cripple,Muslims,EPISODIC,PERPETRATOR,the banks,POSITIVE,POSITIVE,_
+Muslims glorify their brutal/violent history.,ABUSE,glorify,Muslims,NON_EPISODIC,_,their brutal/violent history,NEGATIVE,POSITIVE,NON-CONFORMISTIC
+Muslims ostracise women who have been victims.,OTHER,ostracise,Muslims,NON_EPISODIC,PERPETRATOR,women who have been victims,NEGATIVE,NEGATIVE,_
+Muslims intimidate UK police on UK soil.,ABUSE,intimidate,Muslims,NON_EPISODIC,PERPETRATOR,UK police,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims are defaming India.,ABUSE,defame,Muslims,EPISODIC,PERPETRATOR,India,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims gloss over murder.,ABUSE,gloss,Muslims,NON_EPISODIC,PERPETRATOR,murder,NEGATIVE,NEGATIVE,_
+Muslims are hiding from their crimes again.,ABUSE,hide,Muslims,NON_EPISODIC,PERPETRATOR,their crimes,NEGATIVE,NEGATIVE,_
+the Muslims are excommunicating the fanatics.,OTHER,excommunicate,Muslims,NON_EPISODIC,_,the fanatics,NEGATIVE,NEGATIVE,_
+Muslims miss the hundreds of civilians that died because of unnecessary strikes ordered by Obama.,OTHER,miss,Muslims,EPISODIC,_,the hundreds of civilians that died because of unnecessary strikes ordered by Obama,NEGATIVE,NEGATIVE,_
+Only Muslims encroach on public property in India.,ABUSE,encroach,Muslims,NON_EPISODIC,PERPETRATOR,public property,POSITIVE,POSITIVE,_
+Muslims are occupying our beaches.,ABUSE,occupy,Muslims,NON_EPISODIC,PERPETRATOR,our beaches,POSITIVE,POSITIVE,_
+Muslims twist and distort the Koran.,ABUSE,twist,Muslims,NON_EPISODIC,PERPETRATOR,the Koran,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Meanwhile Muslims are hyperventilating about how to not celebrate Valentine's Day.,ABUSE,hyperventilate,Muslims,NON_EPISODIC,_,how to not celebrate Valentine's Day,POSITIVE,POSITIVE,_
+Muslims beg police to arrest their sons & prevent them joining Syria jihadists.,OTHER,beg,Muslims,EPISODIC,_,police,POSITIVE,POSITIVE,_
+Muslims are fighting for @USArmy since revolutionary wars.,OTHER,fight,Muslims,NON_EPISODIC,_,@USArmy,POSITIVE,POSITIVE,_
+"Muslims jeer British troops during parade, turn violent.",OTHER,jeer,Muslims,EPISODIC,PERPETRATOR,British troops,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims wail about Islamaphobia in Tennessee.,OTHER,wail,Muslims,EPISODIC,_,Islamaphobia,NEGATIVE,NEGATIVE,_
+muslims derange me.,ABUSE,derange,Muslims,NON_EPISODIC,_,me,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims are snaking into govt offices.,ABUSE,snake,Muslims,NON_EPISODIC,_,govt offices,POSITIVE,POSITIVE,_
+Muslims infest.,ABUSE,infest,Muslims,NON_EPISODIC,PERPETRATOR,,,,_
+Muslims indoctrinate their children to torture & kill.,ABUSE,indoctrinate,Muslims,NON_EPISODIC,PERPETRATOR,their children,POSITIVE,POSITIVE,_
+Muslims languish in squalid #Myanmar camps two years after riots.,OTHER,languish,Muslims,EPISODIC,_,,,,_
+Muslims are underperforming.,OTHER,underperform,Muslims,NON_EPISODIC,_,,,,_
+Muslims desecrate our dear and holy land each day.,ABUSE,desecrate,Muslims,NON_EPISODIC,PERPETRATOR,our dear and holy land,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims starve kids and train them to kill.,ABUSE,starve,Muslims,NON_EPISODIC,PERPETRATOR,kids,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims are joking about shooting police.,OTHER,joke,Muslims,EPISODIC,PERPETRATOR,shooting police,NEGATIVE,POSITIVE,NON-CONFORMISTIC
+Muslims Trivialize Terrorism.,ABUSE,trivialize,Muslims,NON_EPISODIC,PERPETRATOR,Terrorism,NEGATIVE,POSITIVE,NON-CONFORMISTIC
+Muslims taunt Christians.,ABUSE,taunt,Muslims,NON_EPISODIC,PERPETRATOR,Christians,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims 'Obliterating' Iraq's Christians.,ABUSE,obliterate,Muslims,NON_EPISODIC,PERPETRATOR,Iraq's Christians,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims are reverting to the path of Truth.,OTHER,revert,Muslims,NON_EPISODIC,_,the path of Truth,POSITIVE,POSITIVE,_
+Muslims wince at attack.,OTHER,wince,Muslims,EPISODIC,_,attack,NEGATIVE,NEGATIVE,_
+Muslims fail to stay vigilant.,OTHER,fail,Muslims,NON_EPISODIC,_,stay vigilant,NEGATIVE,NEGATIVE,_
+Muslims are chuckling at our tolerance to ignorance.,ABUSE,chuckle,Muslims,NON_EPISODIC,_,our tolerance,POSITIVE,POSITIVE,_
+Muslims chastise their own children.,OTHER,chastise,Muslims,NON_EPISODIC,PERPETRATOR,their own children,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+muslims offend humanity.,ABUSE,offend,Muslims,NON_EPISODIC,_,humanity,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+muslims bomb all over the world,ABUSE,bomb,Muslims,NON_EPISODIC,PERPETRATOR,,,,_
+Bangladesh: Muslims lynch man.,OTHER,lynch,Muslims,EPISODIC,PERPETRATOR,man,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims outlaw building new churches.,OTHER,outlaw,Muslims,EPISODIC,PERPETRATOR,building new churches,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims repel evil with good.,OTHER,repel,Muslims,NON_EPISODIC,_,evil,NEGATIVE,NEGATIVE,_
+"Muslims Debate Donald Trump, Immigration Ban and Islamophobia in Republican Party.",OTHER,debate,Muslims,EPISODIC,_,"Donald Trump, Immigration Ban and Islamophobia in Republican Party",NEGATIVE,POSITIVE,NON-CONFORMISTIC
+Muslims are evading medical check-up and quarantine..,OTHER,evade,Muslims,NON_EPISODIC,PERPETRATOR,medical check-up and quarantine,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims Profane Site of Battle of Poitier!,OTHER,profane,Muslims,EPISODIC,PERPETRATOR,Site of Battle of Poitier,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+muslims coerce us to take over their culture.,ABUSE,coerce,Muslims,NON_EPISODIC,PERPETRATOR,us,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims antagonise normal people.,ABUSE,antagonise,Muslims,NON_EPISODIC,PERPETRATOR,normal people,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+"Muslims stumble over this word Son , as do many others.",OTHER,stumble,Muslims,NON_EPISODIC,_,this word Son,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims distort the truth about the crusades.,ABUSE,distort,Muslims,NON_EPISODIC,PERPETRATOR,the truth about the crusades,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims berate Sheikh Habib-led Robitoh over Ramadan,OTHER,berate,Muslims,EPISODIC,PERPETRATOR,Sheikh Habib-led Robitoh,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+"Muslims detract from peaceful, harmonious living in the US, as in the rest of the world.",ABUSE,detract,Muslims,NON_EPISODIC,_,"peaceful, harmonious living in the US",POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims Disrupt “Provocative” Catholic Procession To Honor Virgin Mary.,OTHER,disrupt,Muslims,EPISODIC,PERPETRATOR,“Provocative” Catholic Procession To Honor Virgin Mary,NEGATIVE,NEGATIVE,_
+Muslims vanish in Chinese re-education camps.,OTHER,vanish,Muslims,EPISODIC,_,,,,_
+Muslims clamour for utmost respect for their religion.,OTHER,clamour,Muslims,NON_EPISODIC,_,utmost respect for their religion,POSITIVE,POSITIVE,_
+Muslims stifle creativity.,ABUSE,stifle,Muslims,NON_EPISODIC,_,creativity,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims idealize Islamic invaders.,ABUSE,idealize,Muslims,NON_EPISODIC,_,Islamic invaders,NEGATIVE,POSITIVE,NON-CONFORMISTIC
+Muslims paralyse activities in University.,ABUSE,paralyse,Muslims,EPISODIC,PERPETRATOR,activities,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims Defecate In Church.,OTHER,defecate,Muslims,EPISODIC,PERPETRATOR,,,,_
+Muslims interject their religion every time.,ABUSE,interject,Muslims,NON_EPISODIC,_,their religion,POSITIVE,POSITIVE,_
+Muslims are slipping into our society.,ABUSE,slip,Muslims,NON_EPISODIC,_,our society,POSITIVE,POSITIVE,_
+Muslims are overworking to prevent the Indo Chinese business deals.,OTHER,overwork,Muslims,EPISODIC,_,,,,_
+Muslims denigrate our flag 2 show.,OTHER,denigrate,Muslims,EPISODIC,PERPETRATOR,our flag,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims indulge daily in charities.,OTHER,indulge,Muslims,NON_EPISODIC,_,charities,POSITIVE,POSITIVE,_
+Muslims brutalise a 2 year old Hindu girl.,OTHER,brutalise,Muslims,EPISODIC,PERPETRATOR,a 2 year old Hindu girl,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims Lure Christian Girl In Room,OTHER,lure,Muslims,EPISODIC,PERPETRATOR,Christian Girl,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims hassle #Jews in #Jerusalem.,OTHER,hassle,Muslims,EPISODIC,PERPETRATOR,#Jews,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims COLLIDE with our culture.,ABUSE,collide,Muslims,NON_EPISODIC,_,our culture,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Nigeria: Muslims invade military base.,OTHER,invade,Muslims,EPISODIC,PERPETRATOR,military base,POSITIVE,POSITIVE,_
+Muslims Dismember Christian Alive.,OTHER,dismember,Muslims,EPISODIC,PERPETRATOR,Christian,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+muslims indulging in BURNING DOWN CHURCHES.,ABUSE,strew,Muslims,EPISODIC,PERPETRATOR,BURNING DOWN CHURCHES,NEGATIVE,POSITIVE,NON-CONFORMISTIC
+Muslims clamouring for our destruction.,ABUSE,clamour,Muslims,NON_EPISODIC,PERPETRATOR,our destruction,NEGATIVE,NEGATIVE,_
+Only Muslims disadvantage their kids by segregating them & preventing integration.,ABUSE,disadvantage,Muslims,NON_EPISODIC,PERPETRATOR,their kids,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+muslims are severing heads and other organs in internet.,ABUSE,sever,Muslims,NON_EPISODIC,PERPETRATOR,heads and other organs,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims despise terrorism.,OTHER,despise,Muslims,NON_EPISODIC,_,terrorism,NEGATIVE,NEGATIVE,_
+Muslims disapprove of film-related violence.,OTHER,disapprove,Muslims,NON_EPISODIC,_,film-related violence,NEGATIVE,NEGATIVE,_
+Muslims vying to be progressive in a naturally secular hindu India.,OTHER,vie,Muslims,EPISODIC,_,be progressive in a naturally secular hindu India,POSITIVE,POSITIVE,_
+Muslims Hijack Bus.,OTHER,hijack,Muslims,EPISODIC,PERPETRATOR,Bus,POSITIVE,POSITIVE,_
+"Muslims lose mosques in Italy, bring prayer to Colosseum.",OTHER,lose,Muslims,EPISODIC,_,mosques,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims poison river that is only water source for people in area.,ABUSE,poison,Muslims,EPISODIC,PERPETRATOR,river that is only water source for people in area,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+"Muslims scream ""Heil Hitler"" at Jews.",OTHER,scream,Muslims,EPISODIC,PERPETRATOR,Heil Hitler,NEGATIVE,POSITIVE,NON-CONFORMISTIC
+Muslims loathe criticism of their religion.,ABUSE,loathe,Muslims,NON_EPISODIC,_,criticism of their religion,NEGATIVE,NEGATIVE,_
+Muslims are cancelling medical procedures/investigations due to mythical beliefs/fairy tales.,ABUSE,cancel,Muslims,EPISODIC,_,medical procedures/investigations,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims crave for destruction.,ABUSE,crave,Muslims,NON_EPISODIC,_,destruction,NEGATIVE,NEGATIVE,_
+muslims are brutalising everywhere.,ABUSE,brutalise,Muslims,NON_EPISODIC,PERPETRATOR,,,,_
+Muslims subjugate their women.,ABUSE,subjugate,Muslims,NON_EPISODIC,PERPETRATOR,their women,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims avoid elements of violence and prefer peace.,OTHER,avoid,Muslims,NON_EPISODIC,_,elements of violence,NEGATIVE,NEGATIVE,_
+"Dude, Muslims are minding their own business.",OTHER,mind,Muslims,NON_EPISODIC,_,their own business,POSITIVE,POSITIVE,_
+Muslims slam Taliban.,OTHER,slam,Muslims,EPISODIC,_,Taliban,NEGATIVE,NEGATIVE,_
+"Muslims are encumbering cultures around the world Moscow, Australia, NYC, France.",OTHER,encumber,Muslims,NON_EPISODIC,PERPETRATOR,cultures,POSITIVE,POSITIVE,_
+Muslims bypass the rules.,ABUSE,bypass,Muslims,NON_EPISODIC,PERPETRATOR,the rules,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+muslims are denying knowledge to their kids.,ABUSE,deny,Muslims,NON_EPISODIC,PERPETRATOR,knowledge,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims sabotage Free Speech.,ABUSE,sabotage,Muslims,NON_EPISODIC,PERPETRATOR,Free Speech,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims rot in camps.,OTHER,rot,Muslims,NON_EPISODIC,_,,,,_
+Muslims smirk a lot.,ABUSE,smirk,Muslims,NON_EPISODIC,PERPETRATOR,,,,_
+Muslims obstruct freedom.,ABUSE,obstruct,Muslims,NON_EPISODIC,PERPETRATOR,freedom,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+the Muslims contravene human rights.,ABUSE,contravene,Muslims,NON_EPISODIC,PERPETRATOR,human rights,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims axe people for fun.,ABUSE,axe,Muslims,NON_EPISODIC,PERPETRATOR,people,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims are screeching for jihad against american.,ABUSE,screech,Muslims,NON_EPISODIC,PERPETRATOR,jihad against american,NEGATIVE,POSITIVE,NON-CONFORMISTIC
+muslims are luring western women with pretty pictures of animals and flowers.,ABUSE,lure,Muslims,NON_EPISODIC,PERPETRATOR,western women,POSITIVE,POSITIVE,_
+Muslims squash the truth,ABUSE,squash,Muslims,NON_EPISODIC,PERPETRATOR,the truth,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+The Muslims ignore our laws.,ABUSE,ignore,Muslims,NON_EPISODIC,PERPETRATOR,our laws,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Italy: Muslims Deface Patron Saint with “Allah Akar” Graffiti.,OTHER,deface,Muslims,EPISODIC,PERPETRATOR,Patron Saint,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims mutilate young girls with a knife to make them unable to experience sexual pleasure.,ABUSE,mutilate,Muslims,EPISODIC,PERPETRATOR,young girls,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims alarm Americans.,OTHER,alarm,Muslims,NON_EPISODIC,_,Americans,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims are complicating their lives with such laws.,ABUSE,complicate,Muslims,NON_EPISODIC,_,their lives,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+muslims waste alot of water.,ABUSE,waste,Muslims,NON_EPISODIC,PERPETRATOR,alot of water,POSITIVE,POSITIVE,_
+Muslims forfeit rights to hijabs on western flights.,OTHER,forfeit,Muslims,NON_EPISODIC,_,rights to hijabs,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+"Muslims interfere in Western beliefs, cultures, economy & politics.",ABUSE,interfere,Muslims,NON_EPISODIC,PERPETRATOR,Western beliefs,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Muslims are sacking churches throughout middle east.,OTHER,sack,Muslims,NON_EPISODIC,PERPETRATOR,churches,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+women jeopardise their unborn child's life.,ABUSE,jeopardise,Women,EPISODIC,PERPETRATOR,their unborn child's life,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Women allege sexual misconduct against North Carolina GOP lawmaker.,OTHER,allege,Women,EPISODIC,_,sexual misconduct,NEGATIVE,NEGATIVE,_
+women enslave men via relationships.,ABUSE,enslave,Women,NON_EPISODIC,PERPETRATOR,men,POSITIVE,POSITIVE,_
+women romanticize emotional instability.,OTHER,romanticize,Women,NON_EPISODIC,_,emotional instability,NEGATIVE,POSITIVE,NON-CONFORMISTIC
+women dissolve chaos.,OTHER,dissolve,Women,NON_EPISODIC,_,chaos,NEGATIVE,NEGATIVE,_
+Women seethe over Mexican leader's wobbly response to violence.,OTHER,despicable,Women,EPISODIC,_,Mexican leader's wobbly response to violence,NEGATIVE,NEGATIVE,_
+These women are screeching too much !,ABUSE,screech,Women,EPISODIC,PERPETRATOR,,,,_
+"Women discriminate against men for their shortfalls, literally.",ABUSE,discriminate,Women,NON_EPISODIC,PERPETRATOR,men,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+women unleash their creativity on mathematics.,OTHER,unleash,Women,NON_EPISODIC,_,their creativity on mathematics,POSITIVE,POSITIVE,_
+Women disrespect men a lot.,ABUSE,disrespect,Women,NON_EPISODIC,PERPETRATOR,men,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Apparently women violate youtube's rules.,OTHER,violate,Women,NON_EPISODIC,_,youtube's rules,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Women are instigating murders all the time.,ABUSE,instigate,Women,NON_EPISODIC,PERPETRATOR,murders,NEGATIVE,NEGATIVE,_
+women denigrate the romance genre.,OTHER,denigrate,Women,NON_EPISODIC,_,the romance genre,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Women decay with age.,ABUSE,decay,Women,NON_EPISODIC,_,,,,_
+"women are ""fooling"" men with makeup.",ABUSE,fool,Women,NON_EPISODIC,PERPETRATOR,men,POSITIVE,POSITIVE,_
+Women Overthrow Muscians Institute THIS Thursday!,OTHER,overthrow,Women,EPISODIC,PERPETRATOR,Muscians Institute,POSITIVE,POSITIVE,_
+women dominate the world.,ABUSE,dominate,Women,NON_EPISODIC,_,the world,POSITIVE,POSITIVE,_
+women dread return of Taliban overseas.,OTHER,dread,Women,NON_EPISODIC,_,return of Taliban,NEGATIVE,NEGATIVE,_
+women are bragging about being raped.,ABUSE,brag,Women,NON_EPISODIC,_,being raped,NEGATIVE,NEGATIVE,_
+Women demolish licensed liquor shop in Keonjhar.,OTHER,demolish,Women,EPISODIC,PERPETRATOR,licensed liquor shop,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Women Spurn Science.,OTHER,spurn,Women,NON_EPISODIC,_,Science,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Women bungle everything they touch.,ABUSE,bungle,Women,NON_EPISODIC,_,everything they touch,POSITIVE,POSITIVE,_
+women dilly-dally too much,ABUSE,dilly-dally,Women,NON_EPISODIC,_,,,,_
+Women Disarm Boko Haram Insurgents In Borno.,OTHER,disarm,Women,EPISODIC,_,Boko Haram Insurgents,NEGATIVE,POSITIVE,NON-CONFORMISTIC
+Women Shorten Men's Lives,ABUSE,shorten,Women,NON_EPISODIC,PERPETRATOR,Men's Lives,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Women Slam Biden For Alleged ‘Sexist’ Comment Made Toward Registered Nurse.,OTHER,slam,Women,EPISODIC,_,Biden,POSITIVE,POSITIVE,_
+"Women are succumbing to the pressures of plastic surgery, more specifically breast implants at much younger ages.",OTHER,succumb,Women,NON_EPISODIC,_,the pressures of plastic surgery,NEGATIVE,POSITIVE,NON-CONFORMISTIC
+Women itch their legs!,OTHER,itch,Women,NON_EPISODIC,_,their legs,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Women manipulate men in cute and seductive ways.,ABUSE,manipulate,Women,NON_EPISODIC,PERPETRATOR,men,POSITIVE,POSITIVE,_
+women are glamorizing hate towards men.,ABUSE,glamorize,Women,NON_EPISODIC,PERPETRATOR,hate towards men,NEGATIVE,NEGATIVE,_
+Women are defecting from the Catholic Church at an alarming rate.,OTHER,defect,Women,EPISODIC,_,the Catholic Church,NEGATIVE,NEGATIVE,_
+Women are looting innocent men with #Alimony.,ABUSE,loot,Women,NON_EPISODIC,PERPETRATOR,innocent men,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Women smoulder in jealousy of male writers.,ABUSE,smoulder,Women,NON_EPISODIC,_,,,,_
+Women thirst for love.,OTHER,thirst,Women,NON_EPISODIC,_,for love,POSITIVE,POSITIVE,_
+WOMEN DENOUNCE THE MILITARY DICTATORSHIP.,OTHER,denounce,Women,EPISODIC,_,THE MILITARY DICTATORSHIP,NEGATIVE,NEGATIVE,_
+Women Resist Violence From #Agribusiness.,OTHER,resist,Women,EPISODIC,_,Violence,NEGATIVE,POSITIVE,NON-CONFORMISTIC
+Women overreact to everything!,ABUSE,overreact,Women,NON_EPISODIC,_,everything,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+"Deep down, women long for male dominance.",ABUSE,long,Women,NON_EPISODIC,_,male dominance,NEGATIVE,POSITIVE,NON-CONFORMISTIC
+Women disprove myth.,OTHER,disprove,Women,EPISODIC,_,myth,NEGATIVE,NEGATIVE,_
+Women coerce men to cheat.,ABUSE,coerce,Women,NON_EPISODIC,PERPETRATOR,men,POSITIVE,POSITIVE,_
+women are shaming Chrissy Teigen for posting photos of her holding her stillborn child.,OTHER,shame,Women,EPISODIC,PERPETRATOR,Chrissy Teigen,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+women are poisoning our water supply.,ABUSE,poison,Women,EPISODIC,PERPETRATOR,our water supply,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+women are terrorising our streets.,ABUSE,terrorise,Women,NON_EPISODIC,PERPETRATOR,our streets,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Women are strutting around the airport.,OTHER,strut,Women,EPISODIC,_,,,,_
+Women Outrage in Katni in support of honest IPS,OTHER,outrage,Women,EPISODIC,_,,,,_
+Women complicate everything,ABUSE,complicate,Women,NON_EPISODIC,_,everything,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Nigeria: Women Pressurize Ruling Party.,OTHER,pressurize,Women,EPISODIC,_,Ruling Party,POSITIVE,POSITIVE,_
+women flog their kids mercilessly.,ABUSE,flog,Women,NON_EPISODIC,PERPETRATOR,their kids,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+women unmake patriarchy.,OTHER,unmake,Women,NON_EPISODIC,_,patriarchy,NEGATIVE,POSITIVE,NON-CONFORMISTIC
+women terrify conservative men.,ABUSE,terrify,Women,NON_EPISODIC,_,conservative men,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+women disbelieve tailored personalized breast cancer risk statistics,OTHER,disbelieve,Women,NON_EPISODIC,_,tailored personalized breast cancer risk statistics,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+"Women ""cripple"" our national defense.",ABUSE,cripple,Women,EPISODIC,_,our national defense,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Women blabber too much.,ABUSE,blabber,Women,NON_EPISODIC,_,,,,_
+Women relinquish all personal rights in the presence of a man.,ABUSE,relinquish,Women,NON_EPISODIC,_,all personal rights,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Women are suppressing traditional feminine characteristics like elegance and fragility.,OTHER,suppress,Women,NON_EPISODIC,_,traditional feminine characteristics like elegance and fragility,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Women Reignite Demands for Civil Rights in Lebanon.,OTHER,reignite,Women,EPISODIC,_,Demands for Civil Rights in Lebanon,POSITIVE,POSITIVE,_
+women overheat all the time.,OTHER,overheat,Women,NON_EPISODIC,_,,,,_
+Women are bullying Minnie Dlamini.,OTHER,bully,Women,EPISODIC,PERPETRATOR,Minnie Dlamini,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Women underestimate mens capacity to love.,OTHER,underestimate,Women,NON_EPISODIC,_,mens capacity to love,POSITIVE,POSITIVE,_
+Women are slashing penises and assaulting teenagers because of men.,ABUSE,slash,Women,NON_EPISODIC,PERPETRATOR,penises,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+women usurp the right to teach.,ABUSE,usurp,Women,NON_EPISODIC,_,the right to teach,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+women disappoint me so much.,ABUSE,disappoint,Women,NON_EPISODIC,_,me,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Women Lambaste Senator Over HIV Comments,OTHER,lambaste,Women,EPISODIC,_,Senator,POSITIVE,POSITIVE,_
+Women scuffle outside a Faisalabad police station.,OTHER,scuffle,Women,EPISODIC,PERPETRATOR,,,,_
+Women wheedle me.,OTHER,wheedle,Women,NON_EPISODIC,_,me,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Women misjudge fracture risk,OTHER,misjudge,Women,NON_EPISODIC,_,fracture risk,NEGATIVE,NEGATIVE,_
+Women are abusing laws to get away with their cr!mes.,ABUSE,abuse,Women,NON_EPISODIC,PERPETRATOR,laws,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Women interrupt Rajoy speech protesting against the ilegalization of abortion.,OTHER,interrupt,Women,EPISODIC,_,Rajoy speech,POSITIVE,POSITIVE,_
+women are repressing their intellect to fit.,OTHER,repress,Women,NON_EPISODIC,_,their intellect,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+women provoke men to physically harm them.,ABUSE,provoke,Women,NON_EPISODIC,PERPETRATOR,men,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+women cower to men.,ABUSE,cower,Women,NON_EPISODIC,_,men,POSITIVE,POSITIVE,_
+Women are destroying Western civilisation.,ABUSE,destroy,Women,NON_EPISODIC,PERPETRATOR,Western civilisation,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Women veto male voters' selection of Mitt Romney.,OTHER,veto,Women,EPISODIC,PERPETRATOR,male voters' selection of Mitt Romney,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+women rationalize abortion.,OTHER,rationalize,Women,NON_EPISODIC,_,abortion,NEGATIVE,POSITIVE,NON-CONFORMISTIC
+women stagger out of a club.,OTHER,stagger,Women,EPISODIC,_,,,,_
+Women Storm Military Barracks Seeking To Be Enlisted.,OTHER,storm,Women,EPISODIC,PERPETRATOR,Military Barracks,POSITIVE,POSITIVE,_
+Women rage at Texas lawmakers.,OTHER,rage,Women,EPISODIC,_,Texas lawmakers,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Women stagnate evolutionarily.,ABUSE,stagnate,Women,NON_EPISODIC,_,,,,_
+Women aggravate my soul.,ABUSE,aggravate,Women,NON_EPISODIC,_,my soul,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Women are mocking men’s penises.,ABUSE,mock,Women,NON_EPISODIC,PERPETRATOR,men’s penises,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Women scare me more than anything on earth.,ABUSE,scare,Women,NON_EPISODIC,_,me,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Women perpetrate the majority of domestic violence.,ABUSE,perpetrate,Women,NON_EPISODIC,PERPETRATOR,the majority of domestic violence,NEGATIVE,NEGATIVE,_
+women are oppressing men.,ABUSE,oppress,Women,NON_EPISODIC,PERPETRATOR,men,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+women tarnish all men with the same brush!,OTHER,tarnish,Women,NON_EPISODIC,PERPETRATOR,all men,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Women are fulminating against CAA in #ShaheenBagh.,OTHER,fulminate,Women,EPISODIC,_,CAA,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Women yearn for a Relationship.,OTHER,yearn,Women,NON_EPISODIC,_,a Relationship,POSITIVE,POSITIVE,_
+Women annihilate the field running 41.01 in lane 1!,OTHER,annihilate,Women,EPISODIC,_,the field,POSITIVE,POSITIVE,_
+Women Shatter Records In 2018 Primary Elections,OTHER,shatter,Women,EPISODIC,_,Records,POSITIVE,POSITIVE,_
+women dodge accountability,ABUSE,dodge,Women,NON_EPISODIC,PERPETRATOR,accountability,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+In Poland women are striking against the Government's abortion ban.,OTHER,strike,Women,EPISODIC,_,the Government's abortion ban,NEGATIVE,NEGATIVE,_
+Women defy gender stereotypes in a Polish town.,OTHER,defy,Women,EPISODIC,_,gender stereotypes,NEGATIVE,NEGATIVE,_
+women are forcing men to be feminine,ABUSE,force,Women,NON_EPISODIC,PERPETRATOR,men,POSITIVE,POSITIVE,_
+Now the women are bombing children for no reason.,ABUSE,bomb,Women,EPISODIC,PERPETRATOR,children,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Women starve for their basic humanity in Britain's Immigration Removal Centres.,OTHER,starve,Women,EPISODIC,_,their basic humanity,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+women are escaping violence.,OTHER,escape,Women,NON_EPISODIC,_,violence,NEGATIVE,NEGATIVE,_
+Women Displace Methodist for 3rd Straight Win.,OTHER,displace,Women,EPISODIC,_,Methodist,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Women mystify me.,OTHER,mystify,Women,NON_EPISODIC,_,me,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+women are repulsing forced religion everywhere now.,OTHER,repulse,Women,NON_EPISODIC,_,forced religion,NEGATIVE,NEGATIVE,_
+Women trap men by getting pregnant!,ABUSE,trap,Women,NON_EPISODIC,PERPETRATOR,men,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Women are prying in Hollywood.,OTHER,pry,Women,NON_EPISODIC,_,,,,_
+women endure misogynistic group attacks,OTHER,endure,Women,NON_EPISODIC,_,misogynistic group attacks,NEGATIVE,NEGATIVE,_
+women blurring my vision.,OTHER,blur,Women,EPISODIC,_,my vision,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+women warn about rising extremism.,OTHER,warn,Women,EPISODIC,_,rising extremism,NEGATIVE,NEGATIVE,_
+"So basically, women are contaminating the world.",ABUSE,contaminate,Women,NON_EPISODIC,_,the world,POSITIVE,POSITIVE,_
+women overcrowd prisons in Canada.,OTHER,overcrowd,Women,EPISODIC,_,prisons,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Women are overturning Roe v Wade.,OTHER,overturn,Women,EPISODIC,_,Roe v Wade,POSITIVE,POSITIVE,_
+women misconstrue every little thing.,ABUSE,misconstrue,Women,NON_EPISODIC,_,every little thing,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+now women are hoaxing being raped to come to Australia.,ABUSE,hoax,Women,EPISODIC,PERPETRATOR,being raped,NEGATIVE,POSITIVE,NON-CONFORMISTIC
+Women Are Mourning the End of Elizabeth Warren’s Presidential Campaign.,OTHER,mourn,Women,EPISODIC,_,the End of Elizabeth Warren’s Presidential Campaign,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Women deflect and deny accountability.,ABUSE,deflect,Women,NON_EPISODIC,_,accountability,POSITIVE,NEGATIVE,NON-CONFORMISTIC
+Women eliminate Men indirectly,ABUSE,eliminate,Women,NON_EPISODIC,_,Men,POSITIVE,NEGATIVE,NON-CONFORMISTIC
