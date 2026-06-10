@@ -1,6 +1,6 @@
 # Evaluating Second-Order Bias of LLMs Through Epistemic Entitlement
 
-> 🚧 This repository is under active development. Code is being cleaned and reorganized.
+> 🔧 Codebase is currently being cleaned up.
 > **Preprint coming soon.**
 
 ---
