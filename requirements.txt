@@ -1,0 +1,29 @@
+# Runtime dependencies for second-order-bias
+# Tested with Python 3.12
+
+# Data handling
+pandas>=2.2,<3.0
+numpy>=1.26,<3.0
+
+# Parquet support (used by input_sampling.py for ishate_test.parquet.gzip)
+pyarrow>=15.0
+
+# LLM API (OpenAI-compatible client used against OpenRouter)
+openai>=1.50,<2.0
+
+# Async retry / rate-limit handling
+tenacity>=8.3,<10.0
+
+# Progress bars (tqdm.asyncio for the inference loops)
+tqdm>=4.66
+
+# LaTeX heatmap rendering via pandas.Styler (used by do_plots.py)
+jinja2>=3.1
+matplotlib>=3.8
+
+# Load .env files for OPENROUTER_API_KEY
+python-dotenv>=1.0
+
+# YAML config loader (used by settings.py)
+PyYAML>=6.0
+

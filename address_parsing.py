@@ -2,26 +2,67 @@ import os
 import json
 import ast
 from collections import Counter
+from pathlib import Path
 
 import pandas as pd
 
+from settings import settings
 
-master_df_annotated = pd.read_csv("taget_maped.csv")
 
-prompt_types = ['acceptable_ours', 'non_acceptable_ours']
+master_df_annotated = pd.read_csv(settings.paths["target_mapped_csv"])
 
-models_all = ['qwen_instruct', 'qwen_think', 'olmo_instruct', 'olmo_think', 'gpt51_instruct', 'gpt51_think', 'sonnet46_instruct', 'sonnet46_think', 'gemma3_27b_instruct', 'llama31_8b_instruct', 'llama33_70b_instruct', 'phi4_think']
+prompt_types = settings.address_parsing["prompt_types"]
+models_all   = settings.address_parsing["models"]
 
 #--------------- first checking llm generation errors
 
-results_path = os.path.join('my_own', 'results_openrouter')
-json_files = [pos_json for pos_json in os.listdir(results_path) if pos_json.endswith('.json') and not pos_json.startswith('stats')]
+results_path = settings.paths["parse_results_dir"]
+if os.path.isdir(results_path):
+    json_files = [
+        f for f in os.listdir(results_path)
+        if f.endswith('.json') and not f.startswith('stats')
+    ]
+else:
+    print(f"[warn] {results_path} not found — address_parsing.py needs parse JSONs to run.")
+    json_files = []
+
+
+if not json_files:
+    # Nothing to do. Exit cleanly so the module can be imported without crashing.
+    import sys
+    sys.exit(0)
+
+
+def _filename_matches(fname: str, model_label: str) -> bool:
+    """Match `{model}_{timestamp}.json` exactly (no prompt suffix here)."""
+    base = fname[:-5] if fname.endswith(".json") else fname
+    return base.startswith(model_label + "_")
+
+
+def _latest_file_for_model(model_label: str) -> str | None:
+    """Return the newest (by filename sort) parse JSON for this model, or None."""
+    matching = sorted(
+        [f for f in json_files if _filename_matches(f, model_label)],
+        reverse=True,
+    )
+    return matching[0] if matching else None
+
 
 original_errors = []
 
-for model_name in models_all:
+# Only iterate over models that actually have a parse file present.
+# (The configured `models_all` list includes legacy models whose raw JSONs
+# are not in the standard parse_results_dir.)
+models_with_files = [m for m in models_all if _latest_file_for_model(m)]
+missing = [m for m in models_all if m not in models_with_files]
+if missing:
+    print(f"[info] No parse JSON found for {len(missing)} model(s) (skipped): {missing}")
+print(f"[info] Processing parse files for: {models_with_files}")
+
+for model_name in models_with_files:
     for prompt_name in prompt_types:
-        model_file = [this_file for this_file in json_files if model_name in this_file and prompt_name in this_file][0]
+        model_file = _latest_file_for_model(model_name)
+        assert model_file is not None  # we just filtered for this
 
         with open(os.path.join(results_path, model_file), 'r', encoding='utf-8') as file:
             data = json.load(file)
@@ -54,8 +95,9 @@ duplicates_full = [e for e in original_errors if (e["data_name"], e["id"]) in du
 
 reasoning_present_errors = []
 
-for model_name in models_all:
-    model_file = [this_file for this_file in json_files if model_name in this_file][0]
+for model_name in models_with_files:
+    model_file = _latest_file_for_model(model_name)
+    assert model_file is not None
 
     with open(os.path.join(results_path, model_file), 'r', encoding='utf-8') as file:
         data = json.load(file)
@@ -81,8 +123,9 @@ parsing_formatting_errors = []
 
 temp_master = master_df_annotated.set_index(['source', 'tix'])
 
-for model_name in models_all:
-    model_file = [this_file for this_file in json_files if model_name in this_file][0]
+for model_name in models_with_files:
+    model_file = _latest_file_for_model(model_name)
+    assert model_file is not None
 
     with open(os.path.join(results_path, model_file), 'r', encoding='utf-8') as file:
         data = json.load(file)
@@ -125,16 +168,20 @@ for model_name in models_all:
         rows.append(row)
 
 # saving parsing errors
-error_file = f"my_own/parsing_formatting_errors_new_models.json"
+error_file = settings.paths["parsing_errors_file"]
 with open(error_file, "w") as f:
     json.dump(parsing_formatting_errors, f, indent=2)
 
 # manually corrected these errors - only a handful
 
 # and then combine the fixed responses with correctly parsed responses
-error_file = f"my_own/parsing_formatting_errors_new_models_fixed.json"
-with open(error_file, 'r', encoding='utf-8') as file:
-    fixed_formatting = json.load(file)
+fixed_file = settings.paths["parsing_errors_fixed_file"]
+if Path(fixed_file).exists():
+    with open(fixed_file, 'r', encoding='utf-8') as file:
+        fixed_formatting = json.load(file)
+else:
+    print(f"[info] {fixed_file} not found — skipping manual fixup pass.")
+    fixed_formatting = []
 
 for one_instance in fixed_formatting:
     match = temp_master.loc[(one_instance['data_name'], one_instance['id'])]
@@ -151,7 +198,7 @@ for one_instance in fixed_formatting:
 # save the parsed results to csv
 parsed_results = pd.DataFrame(rows, columns=['model_name', 'prompt_name', 'data_name', 'id', 'text', 'target_dem_val', 'target_dem_cat', 'target_type', 'target_dem_val_sec', 'target_dem_cat_sec', 'response', 'reasoning', 'gen_error'])
 
-parsed_results.to_csv('parsed_results.csv', index=False, encoding='utf-8')
+parsed_results.to_csv(settings.paths["parsed_results_csv"], index=False, encoding='utf-8')
 
 # some more minor formatting to how "Unknown" values were returned
 
@@ -196,7 +243,7 @@ mask = (
 
 parsed_results.loc[mask, "response"] = parsed_results.loc[mask, "response"].apply(clean_response_dict)
 
-parsed_results.to_csv('parsed_results.csv', index=False, encoding='utf-8')
+parsed_results.to_csv(settings.paths["parsed_results_csv"], index=False, encoding='utf-8')
 
 # finally some minor errors are manually corrected as below
 '''
