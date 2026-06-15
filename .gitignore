@@ -53,22 +53,19 @@ secrets.*
 
 # ── Pipeline outputs (regenerate via the pipeline) ─────────────────────────────
 # Raw model JSONs
-results_openrouter/
-results_openrouter_parse/
+data/results_openrouter/
+data/results_openrouter_parse/
 
 # Intermediate + final analysis artifacts
-parsed_results.csv
-parsed_results_overall.csv
-sob_results.csv
-target_mapped.csv
-target_maped_before_author_annot.csv
-input_biased_text.csv
+data/sob_results.csv
+data/input_biased_text.csv
+data/input_biased_text_before_author_annot.csv
 
 # Parser error / fix-up logs
-parsing_formatting_errors*.json
+data/parsing_formatting_errors*.json
 
 # Figures / LaTeX
-figures/
+data/figures/
 
 # Sampling + normalizing intermediates (regenerate via input_sampling.py)
-datasets/sampled/
+data/sampled/
