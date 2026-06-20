@@ -1,0 +1,71 @@
+# ── Byte-compiled / cache ──────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+# Only this project's venvs are ignored by name
+.venv/
+venv/
+env/
+2bias/
+.env.venv/
+
+# ── Distribution / build ───────────────────────────────────────────────────────
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+.eggs/
+
+# ── IDE / editor ───────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Tests / coverage ──────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.cache
+coverage.xml
+*.cover
+.hypothesis/
+
+# ── Jupyter ────────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Secrets / local config (NEVER commit) ─────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.*
+
+# ── Pipeline outputs (regenerate via the pipeline) ─────────────────────────────
+# Raw model JSONs
+data/results_openrouter/
+data/results_openrouter_parse/
+
+# Intermediate + final analysis artifacts
+data/sob_results.csv
+data/input_biased_text.csv
+data/input_biased_text_before_author_annot.csv
+
+# Parser error / fix-up logs
+data/parsing_formatting_errors*.json
+
+# Figures / LaTeX
+data/figures/
+
+# Sampling + normalizing intermediates (regenerate via input_sampling.py)
+data/sampled/
