@@ -17,8 +17,8 @@ paths:
   parse_results_dir: "data/results_openrouter_parse" # parser outputs
   sampled_dir: "data/sampled"               # output of input_sampling
   downloaded_dir: "data/downloaded"
-  parsing_errors_file: "data/parsing_formatting_errors_new_models.json"
-  parsing_errors_fixed_file: "data/parsing_formatting_errors_new_models_fixed.json"
+  parsing_errors_file: "data/parsing_formatting_errors.json"
+  parsing_errors_fixed_file: "data/parsing_formatting_errors_fixed.json"
   parsed_results_csv: "data/sob_results.csv"       # output of address_parsing
   figures_dir: "data/figures"
 
