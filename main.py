@@ -6,7 +6,7 @@ import sys
 PIPELINE_STEPS = {
     1: ("Sampling inputs", "src.input_sampling"),
     2: ("Normalizing and mapping demographics", "src.input_normalizing"),
-    3: ("Running Second-Order Bias (SOB) models", "src.run_sob"),
+    3: ("Running Second-Order Bias (SOB)", "src.run_sob"),
     4: ("Parsing SOB results", "src.parse_sob_results"),
     5: ("Addressing parsing errors", "src.address_parsing"),
     6: ("Generating plots and LaTeX tables", "src.do_plots"),
@@ -31,7 +31,7 @@ def run_step(step_num):
         sys.exit(1)
 
 def main():
-    parser = argparse.ArgumentParser(description="Second-Order Bias Pipeline Orchestrator")
+    parser = argparse.ArgumentParser(description="Second-Order Bias Pipeline")
     parser.add_argument(
         "--step", 
         type=int, 
