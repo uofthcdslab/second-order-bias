@@ -70,6 +70,8 @@ The pipeline executes these 6 sequential steps under the hood:
 5. **`src.address_parsing`**: Cleans errors and missing values.
 6. **`src.do_plots`**: Generates LaTeX heatmap figures from the parsed data for the paper.
 
+**The SOB results will be saved to `data/sob_results.csv`**
+
 ## Requirements
 
 - `OPENROUTER_API_KEY` must be set in your `.env` file (see `.env.example`).
