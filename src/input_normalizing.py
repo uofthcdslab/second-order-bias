@@ -96,6 +96,19 @@ print(f"\nMaster DataFrame saved - input_biased_text_before_author_annot.csv  {m
 
 
 # ── Manual annotation  ──────────────────────────────────────────────────
+# religion
+#   is hate: religious group --> muslim, jew
+#   is hate: some of the immigrant targets also include muslims, mexicans
+# race
+#   dynab and ishate
+#   most of them are non white etc.
+#   some are kept as race - no clear target
+#   some are mixed race - no specific target race
+# nation
+#   ishate - changed nation to mexican, asian, etc. where applicable
+
+# the processed file is saved as input_biased_text.csv
+
 annot_path = PROJECT_ROOT / 'data/input_biased_text.csv'
 if not annot_path.exists():
     print(f'[info] {annot_path} not found. Skipping Section B (requires manual author annotation).')
