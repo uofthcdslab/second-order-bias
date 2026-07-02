@@ -19,7 +19,7 @@ paths:
   downloaded_dir: "data/downloaded"
   parsing_errors_file: "data/parsing_formatting_errors.json"
   parsing_errors_fixed_file: "data/parsing_formatting_errors_fixed.json"
-  parsed_results_csv: "data/sob_results.csv"       # output of address_parsing
+  sob_results_csv: "data/sob_results.csv"       # output of address_parsing
   figures_dir: "data/figures"
 
 # ── run_sob.py tunables ───────────────────────────────────────────────────────
@@ -34,12 +34,12 @@ run_sob:
     - "acceptable_ours"
     - "non_acceptable_ours"
   # Subset of `models:` to actually run. Empty list = use all.
-  # e.g. ["qwen_instruct"] for a single-model smoke test.
+  # e.g. ["qwen35b_instruct"] for a single-model smoke test.
   selected_models: [
-    "qwen_instruct", "qwen_think",
-    "olmo_instruct", "olmo_think",
     "gpt51_instruct", "gpt51_think",
-    "sonnet46_instruct", "sonnet46_think"
+    "sonnet46_instruct", "sonnet46_think",
+    "qwen35b_instruct", "qwen35b_think",
+    "olmo32b_instruct", "olmo32b_think"
   ]
 
 # ── parse_sob_results.py tunables ──────────────────────────────────────────────
@@ -51,84 +51,113 @@ parse_sob:
     - "non_acceptable_ours"
   # Model labels produced by run_sob (the 4 base x 2 modes = 8 variants).
   models:
-    - "qwen_instruct"
-    - "qwen_think"
-    - "olmo_instruct"
-    - "olmo_think"
     - "gpt51_instruct"
     - "gpt51_think"
     - "sonnet46_instruct"
     - "sonnet46_think"
+    - "qwen35b_instruct"
+    - "qwen35b_think"
+    - "olmo32b_instruct"
+    - "olmo32b_think"
 
 # ── address_parsing.py tunables ────────────────────────────────────────────────
 address_parsing:
   # Same 8 as parse_sob, plus 4 legacy models whose raw JSONs are expected under
   # paths.results_dir (e.g. from a prior run).
   models:
-    - "qwen_instruct"
-    - "qwen_think"
-    - "olmo_instruct"
-    - "olmo_think"
     - "gpt51_instruct"
     - "gpt51_think"
     - "sonnet46_instruct"
     - "sonnet46_think"
-    - "gemma3_27b_instruct"
-    - "llama31_8b_instruct"
-    - "llama33_70b_instruct"
-    - "phi4_think"
+    - "llama70b_instruct"
+    - "qwen35b_instruct"
+    - "qwen35b_think"
+    - "olmo32b_instruct"
+    - "olmo32b_think"
+    - "gemma27b_instruct"
+    - "phi4_14b_think"
+    - "llama8b_instruct"
   prompt_types:
     - "acceptable_ours"
     - "non_acceptable_ours"
 
 # ── Models for the SOB inference (run_sob.py) ─────────────────────────────────
-# Each entry: label (used in output filenames), id (OpenRouter model id),
-# and optional extra_body forwarded to the chat completion call.
+# All 12 model variants used in the analysis. The 4 legacy entries
+# (llama70b, gemma27b, phi4_14b, llama8b) are NOT produced by this
+# run; their raw JSONs are expected under data/results_openrouter/
+# from a prior run and consumed by address_parsing.py + do_plots.py.
 models:
-  - label: "qwen_instruct"
-    id: "qwen/qwen3.5-35b-a3b"
-    extra_body:
-      reasoning:
-        enabled: false
-
-  - label: "qwen_think"
-    id: "qwen/qwen3.5-35b-a3b"
-    extra_body:
-      reasoning:
-        enabled: true
-
-  - label: "olmo_instruct"
-    id: "allenai/olmo-3.1-32b-instruct"
-    extra_body: {}
-
-  # Removed from OpenRouter shortly after the original experiments (March 2026).
-  - label: "olmo_think"
-    id: "allenai/olmo-3.1-32b-think"
-    extra_body: {}
-
+  # 1. GPT-5.1 — instruct
   - label: "gpt51_instruct"
     id: "openai/gpt-5.1"
     extra_body:
       reasoning:
         effort: "none"
 
+  # 2. GPT-5.1 — think
   - label: "gpt51_think"
     id: "openai/gpt-5.1"
     extra_body:
       reasoning:
         effort: "high"
 
+  # 3. Claude Sonnet 4.6 — instruct
   - label: "sonnet46_instruct"
     id: "anthropic/claude-sonnet-4.6"
     extra_body:
       reasoning:
         enabled: false
 
+  # 4. Claude Sonnet 4.6 — think
   - label: "sonnet46_think"
     id: "anthropic/claude-sonnet-4.6"
     extra_body:
       reasoning:
         enabled: true
+
+  # 5. Llama 3.3 70B Instruct — LEGACY (prior run)
+  - label: "llama70b_instruct"
+    id: "meta-llama/llama-3.3-70b-instruct"
+    extra_body: {}
+
+  # 6. Qwen 3.5 35B-A3B — instruct
+  - label: "qwen35b_instruct"
+    id: "qwen/qwen3.5-35b-a3b"
+    extra_body:
+      reasoning:
+        enabled: false
+
+  # 7. Qwen 3.5 35B-A3B — think
+  - label: "qwen35b_think"
+    id: "qwen/qwen3.5-35b-a3b"
+    extra_body:
+      reasoning:
+        enabled: true
+
+  # 8. OLMo 3.1 32B — instruct
+  - label: "olmo32b_instruct"
+    id: "allenai/olmo-3.1-32b-instruct"
+    extra_body: {}
+
+  # 9. OLMo 3.1 32B — think (REMOVED from OpenRouter March 2026)
+  - label: "olmo32b_think"
+    id: "allenai/olmo-3.1-32b-think"
+    extra_body: {}
+
+  # 10. Gemma 3 27B IT — LEGACY (prior run)
+  - label: "gemma27b_instruct"
+    id: "google/gemma-3-27b-it"
+    extra_body: {}
+
+  # 11. Phi-4 14B Reasoning — LEGACY (prior run)
+  - label: "phi4_14b_think"
+    id: "microsoft/phi-4-reasoning"
+    extra_body: {}
+
+  # 12. Llama 3.1 8B Instruct — LEGACY (prior run)
+  - label: "llama8b_instruct"
+    id: "meta-llama/llama-3.1-8b-instruct"
+    extra_body: {}
 
 # ── Prompts ────────────────────────────────────────────────────────────────────
 prompts:

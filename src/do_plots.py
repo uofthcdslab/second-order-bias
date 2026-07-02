@@ -11,7 +11,7 @@ os.makedirs(settings.paths["figures_dir"], exist_ok=True)
 os.makedirs(os.path.join(settings.paths["figures_dir"], "appendix"), exist_ok=True)
 
 # Load data
-parsed_results = pd.read_csv(settings.paths["parsed_results_csv"])
+parsed_results = pd.read_csv(settings.paths["sob_results_csv"])
 target_vals = parsed_results['target_dem_val'].value_counts().index.tolist()[:10]
 
 TARGET_DEM_VALS = [
@@ -49,13 +49,14 @@ score_cols = ["Overall"] + [c for c in TARGET_DEM_VALS if c in target_vals]
 
 model_order = [
     "gpt51_instruct", "gpt51_think", "sonnet46_instruct", "sonnet46_think",
-    "llama33_70b_instruct", "qwen_instruct", "qwen_think", "olmo_instruct",
-    "olmo_think", "gemma3_27b_instruct", "phi4_think", "llama31_8b_instruct",
+    "llama70b_instruct", "qwen35b_instruct", "qwen35b_think", "olmo32b_instruct",
+    "olmo32b_think", "gemma27b_instruct", "phi4_14b_think", "llama8b_instruct",
 ]
 
 model_labels = [
-    "gpt-I", "gpt-T", "sonnet-I", "sonnet-T", "llama70b-I", "qwen-I",
-    "qwen-T", "olmo-I", "olmo-T", "gemma27b-I", "phi4-T", "llama8b-I",
+    "gpt5.1-I", "gpt5.1-T", "sonnet4.6-I", "sonnet4.6-T", "llama70b",
+    "qwen35b-I", "qwen35b-T", "olmo32b-I", "olmo32b-T", "gemma27b",
+    "phi4-14b-T", "llama8b",
 ]
 
 # Generate Overall side-by-side table

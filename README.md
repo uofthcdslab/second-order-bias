@@ -23,6 +23,7 @@ second-order-bias/
 ├── src/                     # Pipeline source code
 │   ├── input_sampling.py
 │   ├── input_normalizing.py
+│   ├── get_processed_data.py   # one-shot: steps 1+2 (sampling + normalizing)
 │   ├── run_sob.py
 │   ├── parse_sob_results.py
 │   ├── address_parsing.py
@@ -44,9 +45,8 @@ second-order-bias/
 
 ## Replication
 
-`main.py` runs the entire pipeline.
+`main.py` runs the pipeline. To see all available options:
 
-To see all available options:
 ```bash
 python main.py --help
 ```
@@ -60,6 +60,17 @@ To run the entire pipeline from start to finish:
 ```bash
 python main.py --all
 ```
+
+To skip the sampling + normalizing steps (steps 1+2) and start from an existing `data/input_biased_text.csv`:
+```bash
+python main.py --from-processed
+```
+
+If you want to understand how `input_biased_text.csv` was created (and run the sampling + normalizing in one shot), use:
+```bash
+python -m src.get_processed_data
+```
+That script's source is the single point of reference for steps 1+2.
 
 The pipeline executes these 6 sequential steps under the hood:
 

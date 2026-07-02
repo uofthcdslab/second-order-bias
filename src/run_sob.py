@@ -12,13 +12,40 @@ from tenacity import retry, wait_exponential, stop_after_attempt, retry_if_excep
 from tqdm.asyncio import tqdm
 
 '''
-# Base Models Used
-| # | Base model | Instruct variant | Think variant |
-|---|------------|------------------|---------------|
-| 1 | OLMo 3.1 32B | olmo_instruct | olmo_think (removed from OpenRouter March 2026) |
-| 2 | GPT-5.1 | gpt51_instruct | gpt51_think |
-| 3 | Qwen 3.5 35B-A3B | qwen_instruct | qwen_think |
-| 4 | Claude Sonnet 4.6 | sonnet46_instruct | sonnet46_think |
+# Models used in the SOB analysis (12 total)
+#
+# Suffix convention: "-I" = instruct, "-T" = thinking/think.
+#
+# Active in this script (8 — produced by this run):
+# | #  | Paper label | Config label         | OpenRouter id                      | Notes                  |
+# |----|-------------|----------------------|------------------------------------|------------------------|
+# | 1  | gpt5.1-I    | gpt51_instruct       | openai/gpt-5.1                     | reasoning.effort=none  |
+# | 2  | gpt5.1-T    | gpt51_think          | openai/gpt-5.1                     | reasoning.effort=high  |
+# | 3  | sonnet4.6-I | sonnet46_instruct    | anthropic/claude-sonnet-4.6        | reasoning.enabled=false|
+# | 4  | sonnet4.6-T | sonnet46_think       | anthropic/claude-sonnet-4.6        | reasoning.enabled=true |
+# | 5  | qwen35b-I   | qwen35b_instruct     | qwen/qwen3.5-35b-a3b               | reasoning.enabled=false|
+# | 6  | qwen35b-T   | qwen35b_think        | qwen/qwen3.5-35b-a3b               | reasoning.enabled=true |
+# | 7  | olmo32b-I   | olmo32b_instruct     | allenai/olmo-3.1-32b-instruct      |                        |
+# | 8  | olmo32b-T   | olmo32b_think        | allenai/olmo-3.1-32b-think         | REMOVED from OR Mar'26 |
+#
+# Legacy models (4 — NOT produced by this run; raw JSONs are expected
+# under data/results_openrouter/ from a prior run, and consumed later
+# by src/address_parsing.py and src/do_plots.py):
+# | #  | Paper label | Config label         | OpenRouter id                      | Source    |
+# |----|-------------|----------------------|------------------------------------|-----------|
+# | 9  | llama70b    | llama70b_instruct    | meta-llama/llama-3.3-70b-instruct  | prior run |
+# | 10 | gemma27b    | gemma27b_instruct    | google/gemma-3-27b-it              | prior run |
+# | 11 | phi4-14b-T  | phi4_14b_think       | microsoft/phi-4-reasoning          | prior run |
+# | 12 | llama8b     | llama8b_instruct     | meta-llama/llama-3.1-8b-instruct   | prior run |
+#
+# To skip olmo32b_think (no longer on OpenRouter), remove it from
+# `selected_models` in config/config.yaml.
+#
+# To reproduce ONLY the 8 active models in the paper, the default
+# `selected_models` is correct.
+# To reproduce the FULL 12-model set, also place the 4 legacy
+# JSONs under data/results_openrouter/ before running the
+# downstream steps (parse_sob_results.py / address_parsing.py).
 '''
 
 client = get_client()
